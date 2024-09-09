@@ -1,0 +1,79 @@
+* {
+     font-family: Arial, Helvetica;
+    }
+
+    p {
+        font-family: "Times New Roman", Times, serif; 
+    }
+
+    body { 
+        background-image: url("../image/bg2.jfif");
+     }
+
+.button {
+   
+    background-image: linear-gradient(rgb(255, 255, 3),rgb(236, 12, 12)); 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    width:90px;
+    height:5px;
+    border-radius: 50px;
+    box-shadow: 0 2px #999;
+    padding-top: 10px;
+   }
+
+   #bt {
+    font-weight: bold;
+    }
+
+   .para1{
+    border-style: solid;
+    border-width: 1px; 
+    background-color:#00ff00;
+    padding:5px;
+    width: 800px;
+}
+
+.formula{
+    border: 3px outset red;
+	background-color: lightblue;    
+	text-align: left;
+	margin: 1px 5px 1px 4px;
+	padding: 1px 5px 1px 4px;
+	width: 300px;
+	
+}
+fieldset{
+    background-color: #fe723f;
+    width: 300px;
+}
+label{
+    width:140px;
+    display: inline-block;
+    margin: 0.2cm;
+    font-size: 16px;
+    
+  }
+#female{
+    margin-left: 164px;
+}
+
+  input[type=tel], [type=datetime-local], [type=age], [type=height], [type=weight], [type=email], select, textarea {
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
